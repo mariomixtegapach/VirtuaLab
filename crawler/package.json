@@ -1,0 +1,23 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "chrome-remote-interface": "^0.25.2",
+    "google-translate-api": "^2.3.0",
+    "phantomjs": "^2.1.7",
+    "phantomjscloud": "^3.0.0",
+    "q": "^1.5.1",
+    "scrape-it": "^4.0.0",
+    "sqlite3": "^3.1.13",
+    "underscore": "^1.8.3",
+    "unirest": "^0.5.1"
+  }
+}

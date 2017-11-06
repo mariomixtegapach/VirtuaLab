@@ -54,7 +54,7 @@
     <instance objName="ob_logo" x="128" y="32" name="inst_9675B9DE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ob_mat" x="96" y="192" name="inst_2ABFB570" locked="0" code="" scaleX="0.766467094421387" scaleY="0.777327954769135" colour="4294967295" rotation="-23"/>
     <instance objName="ob_vaso" x="224" y="192" name="inst_5B630C6D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="45"/>
-    <instance objName="ob_button" x="480" y="128" name="inst_24F1011E" locked="0" code="text = &quot;Laboratorio&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="ob_button" x="480" y="128" name="inst_24F1011E" locked="0" code="text = &quot;Laboratorio&quot;&#xA;action = 1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ob_button" x="480" y="178" name="inst_984B7F44" locked="0" code="text = &quot;Compuestopedia&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="ob_button" x="481" y="226" name="inst_BA06BC50" locked="0" code="text = &quot;Salir&quot;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

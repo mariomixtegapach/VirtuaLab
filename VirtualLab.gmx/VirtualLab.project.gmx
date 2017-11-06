@@ -5,11 +5,42 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_logo</sprite>
+    <sprite>sprites\spr_mat</sprite>
+    <sprite>sprites\spr_vaso</sprite>
+    <sprite>sprites\spr_button_sel</sprite>
+    <sprite>sprites\spr_button</sprite>
+    <sprite>sprites\spr_button_elements</sprite>
+    <sprite>sprites\spr_button_comp_sel</sprite>
+    <sprite>sprites\spr_button_comp</sprite>
+    <sprite>sprites\spr_button_elements_sel</sprite>
+    <sprite>sprites\spr_table</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\b_color_palette</background>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\Roboto</font>
+    <font>fonts\Myriad</font>
+  </fonts>
+  <objects name="objects">
+    <objects name="assets">
+      <object>objects\ob_logo</object>
+      <object>objects\ob_mat</object>
+      <object>objects\ob_vaso</object>
+      <object>objects\ob_button</object>
+    </objects>
+    <objects name="game_scene">
+      <object>objects\ob_elements_button</object>
+      <object>objects\ob_comp_button</object>
+      <object>objects\ob_table</object>
+    </objects>
+  </objects>
   <rooms name="rooms">
-    <room>rooms\room0</room>
+    <room>rooms\r_gamemenu</room>
+    <room>rooms\r_gamescene</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
